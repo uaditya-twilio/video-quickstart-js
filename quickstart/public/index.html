@@ -33,6 +33,44 @@
           </div>
         </div>
       </div>
+    <!--SCREENSHARE BUTTON-->
+      <div style="text-align: center; margin-top: 10px;">
+        <button class="btn btn-success" id="btn-screenshare">Share Screen</button>
+    </div>
+
+     <!--UNSHARESHARE BUTTON-->
+     <button class="btn btn-danger ml-2" id="btn-unshare" style="display: none;">Unshare Screen</button>
+     <!--AUDIO-VIDEO UNMUTE-->
+     <button class="btn btn-warning ml-2" id="btn-mute-audio">Mute Audio</button>
+     <button class="btn btn-warning ml-2" id="btn-mute-video">Mute Video</button>
+     <!--LOCAL VIDEO SNAPSHOT-->
+     
+<button class="btn btn-info" id="btn-snapshot">Take Snapshot</button>
+<canvas id="snapshot-canvas" style="display: none;"></canvas>
+<img id="snapshot-image" style="display: none; margin-top: 10px; max-width: 100%;" />
+
+<!--MESSAGING-->
+
+
+
+
+
+
+
+     
+
+<!--NETWORK QUALITY-->
+<div id="network-quality-local">Network Quality: Unknown</div>
+
+
+
+
+
+
+
+    </div>
+
+
       <div id="modals">
         <div class="modal fade" id="select-mic" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="select-mic-label" aria-hidden="true">
           <div class="modal-dialog" role="document">
